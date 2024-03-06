@@ -1,0 +1,69 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgba(94, 122, 117, 0.781)
+}
+
+#cabecalho img {
+    width: 100px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #427d71;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #427d71;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-grazi,
+#outros-servicos,
+#contato {
+    background-color: #eefffc;
+}
+
+.text-colored {
+    color: #427d71;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #427d71;
+    color: #fff
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #427d71;
+}   
+
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    
+}
